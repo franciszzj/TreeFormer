@@ -140,7 +140,7 @@ if __name__ == "__main__":
                                  ["./examples/IMG_270.jpg"],
                                  ["./examples/IMG_306.jpg"],
                            ],
-                           cache_examples=True,
+                           # cache_examples=True,
                            examples_per_page=10,
                            allow_flagging=False,
                            theme=gr.themes.Default(),
