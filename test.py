@@ -2,7 +2,7 @@ import argparse
 import torch
 import os
 import numpy as np
-import datasets.crowd_gauss as crowd
+import datasets.crowd as crowd
 from network import pvt_cls as TCN
 import torch.nn.functional as F
 from scipy.io import savemat 
