@@ -15,7 +15,7 @@ def demo(img_path):
     # config
     batch_size = 8
     crop_size = 256
-    model_path = '/users/k21163430/workspace/TreeFormer/models/best_model.pth'
+    model_path = './models/best_model.pth'
 
     device = torch.device('cuda')
 
